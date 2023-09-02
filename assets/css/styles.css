@@ -68,7 +68,7 @@ aside{
     justify-content: center;
     cursor: pointer;
     color: #ffff;
-    text-shadow:1px 1px 5px #ccccd6;
+    text-shadow:1px 1px 3px #222223;
     font-family: "Belanosima", ;
     font-weight: 600;
 ;
@@ -101,9 +101,10 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 70px;
+    width: 100vw;
+    gap: 150px;
     padding: 50px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 15vmax;
     overflow-y:auto;
     
@@ -113,24 +114,31 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 40vh;
+    width: 300px;
     background: #cbcec5ad;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     border: 2px dashed #9a9e8f;
     border-radius: 10px;
     font-family:"Belanosima", Cambria, serif ;
     color: #75786e;
 }
+.img_tarjeta{
+    display: flex;
 
+}
 .tarjeta img{
     display: flex;
-    justify-content: center;
-    height: 150px;
+    height: 200px;
     
 }
 .titulo_tarjeta {
     display: flex;
     justify-content: center;
     cursor: pointer;
+    padding-top: 5px;
 }
 .precio_tarjeta {
     display: flex;
